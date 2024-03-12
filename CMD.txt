@@ -1,0 +1,1 @@
+openssl enc -in in.tar.gz -aes-256-cbc -pbkdf2  -iv d2a0fa7d8e6a294f77d0865cf773702f -pass stdin -out out.tar.gz.enc
